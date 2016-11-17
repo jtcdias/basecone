@@ -1,0 +1,37 @@
+New log file opened at Sat Oct 29 21:29:13 BST 2016 by 3720@mahev-PC
+Taking next connection to: 50558
+New client attempting to connect on port: 50559-50558
+  Address = /192.168.1.5:50558
+This client on port 50559 has uuid 03eb3605-8a0b-4104-be9c-bbc774d314fa configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-03eb3605-8a0b-4104-be9c-bbc774d314fa
+Taking next connection to: 50558
+New client attempting to connect on port: 50561-50558
+  Address = /192.168.1.5:50558
+Handshake exception on socket: 50561
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 50558
+New client attempting to connect on port: 50562-50558
+  Address = /192.168.1.5:50558
+This client on port 50562 has uuid 6b67edfd-9e43-4133-bb67-6a662c2240b9 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-6b67edfd-9e43-4133-bb67-6a662c2240b9
+Taking next connection to: 50558
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 3720@mahev-PC logs at Sat Oct 29 21:33:32 BST 2016, goodbye.
