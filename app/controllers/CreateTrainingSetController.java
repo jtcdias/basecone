@@ -19,7 +19,7 @@ public class CreateTrainingSetController extends Controller {
     public Result index() throws Exception {
         BuildTrainingSet.build();
         bernolliNaiveBayes.evaluate();
-        return ok("Your new application is ready.");
+        return ok("Training-set created!!");
     }
 
 }

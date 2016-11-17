@@ -10,6 +10,7 @@ import weka.classifiers.bayes.NaiveBayes;
 import weka.core.Attribute;
 import weka.core.Instances;
 
+// TODO under construction
 
 public class BernolliNaiveBayes {
     private static final Logger.ALogger logger = Logger.of(BernolliNaiveBayes.class);

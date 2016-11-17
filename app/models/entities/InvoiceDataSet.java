@@ -13,14 +13,8 @@ public class InvoiceDataSet extends Model {
 
     @Id
     public Long id;
-
     public Double distance;
-
     public String value;
-
     public Boolean tag;
-
     public String fileName;
-
-
 }

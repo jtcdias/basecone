@@ -5,9 +5,6 @@ import java.util.regex.Pattern;
 import models.parser.filters.IFilter;
 import org.w3c.dom.Node;
 
-/**
- * @author jdias.
- */
 public class Invoice implements IFilter {
     @Override
     public short getType() {

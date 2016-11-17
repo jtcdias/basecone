@@ -19,7 +19,6 @@ public class InvoiceTrainingSet extends Model {
     public Long posTop;
     public String closestSynonymous;
     public Double distance;
-    //todo this should be a enum
     public String keyWord;
     public String value;
     public Boolean tag;
